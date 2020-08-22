@@ -1,9 +1,5 @@
 load "graph";;
 #open "graph";;
-
-let c = 5;;
-let voisins g v = c
-;;
     
 let dfs g =
   let n = Array.length g in
