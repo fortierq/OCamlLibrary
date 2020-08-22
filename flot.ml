@@ -4,9 +4,6 @@ load "graph";;
 let c = 5;;
 let voisins g v = c
 ;;
-
-let adj g u =
-  for
     
 let dfs g =
   let n = Array.length g in
