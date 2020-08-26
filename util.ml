@@ -128,5 +128,3 @@ let rec inter l1 l2 = (* intersection de listes triées *)
   | e1::q1, e2::q2 when e1 = e2 -> e1::inter q1 q2
   | e1::q1, e2::q2 when e1 < e2 -> inter q1 l2
   | e1::q1, e2::q2 -> inter l1 q2;;
-     
-inter [1; 3; 4; 7; 8] [1; 2; 4; 5; 6; 8];;
